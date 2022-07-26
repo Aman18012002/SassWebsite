@@ -1,0 +1,163 @@
+/* #7030CC */
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bacground-color{
+    background: linear-gradient(#7030CC, #5a10c1);
+    margin-left: 1rem;
+    border-radius: 3rem 3rem 0px 0px;
+}
+.first-bacground{
+    background-color: rgb(220, 219, 217);
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1rem;   
+}
+.bacground-deep{
+    background-color: #fff;
+    border-radius: 3rem 3rem 3rem 5px; 
+    /* margin-top: 1rem; */
+    padding-top: 1rem;
+
+}
+.text{
+    list-style: none;
+    gap: 4rem;
+    color: #fff;
+}
+.text-nav{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+.btn-top{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    border: none;
+    font-size: 1.2rem;
+    background-color: #12B0E8;
+    color: #fff;
+}
+.heading-text{
+    font-size: 4.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+.hero-para{
+    color: #fff;
+    font-size: 1.2rem;
+}
+/* Hero Section */
+
+.heroo-img{
+    width: 45rem;
+}
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+}
+
+/* Explanation  PAge*/
+.ex-image{
+    width: 45rem;
+}
+.Explanation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.text-explain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+}
+.heading-ex{
+    font-size: 2.8rem;
+}
+.text-heading-1{
+    font-size: 2rem;
+}
+.text-para{
+    font-size: 1rem;
+}
+.feature-text{
+    text-align: center;
+    font-size: 3.2rem;
+    padding: 2rem;
+}
+/* Card Part started here */
+
+.card-img-1{
+    width: 10rem;
+    padding: 2rem;
+   
+    /* padding: 5rem; */
+}
+.card-img{
+    background-color: rgb(220, 219, 217);
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    width: 14rem;
+    height: 30%;
+    border-radius: 2rem;
+    padding: 1rem;
+
+}
+.card-text{
+    margin-top: 1rem;
+    width: 14rem;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 3rem 3rem 0px 0px;
+}
+.color{
+    background: linear-gradient(#7030CC, #5a10c1);
+}
+.black{
+    color: #000000;
+}
+.card-design{
+    display: flex;
+    justify-content: space-around;
+}
+.social-txt{
+    list-style: none;
+}
+.handles{
+    display: flex;
+    gap: 3rem;
+}
+.footer{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.socail{
+    font-size: 1.8rem;
+    color: #5a10c1;
+}
