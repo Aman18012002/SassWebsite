@@ -20,9 +20,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem; 
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-top: 1rem; 
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .bacground-deep{
     background-color: #fff;
@@ -78,7 +78,10 @@ flex-wrap: wrap-reverse;
 }
 /* Responsive */
 @media only screen and (max-width: 800px) {
-
+.heading-ex,.feature-text{
+    font-size: 22px;
+    text-align: center;
+}
 .heading-text{
     font-size: 34px;
 }
@@ -91,8 +94,10 @@ flex-wrap: wrap-reverse;
 }
   
 }
-@media only screen and (max-width: 480px) {
- 
+@media only screen and (max-width: 680px) {
+ .logoimgw{
+    width: 60%;
+ }
     .text{
      display: none;
     }
