@@ -19,8 +19,10 @@
 .navigation{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding-top: 1rem;   
+    justify-content: space-between;
+    padding: 1rem; 
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 .bacground-deep{
     background-color: #fff;
@@ -39,7 +41,9 @@
     gap: 4rem;
     align-items: center;
 }
+
 .btn-top{
+    animation: wiggle 2s linear infinite;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: .4rem;
@@ -61,21 +65,69 @@
 /* Hero Section */
 
 .heroo-img{
-    width: 45rem;
+   width: 100%;
+    
 }
 .hero-section{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;  
+padding: 2rem;
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-wrap: wrap-reverse;
+
 }
+/* Responsive */
+@media only screen and (max-width: 800px) {
+
+.heading-text{
+    font-size: 34px;
+}
+.hero-para{
+    font-size: 22px;
+}
+.logoimgw{
+    padding: 0;
+    margin: 0;
+}
+  
+}
+@media only screen and (max-width: 480px) {
+ 
+    .text-nav{
+     display: none;
+    }
+       
+     }
+     @media only screen and (max-width: 1240px) {
+  
+     .heroo-img{
+         width: 80%;
+     }   
+           
+         }
+@media only screen and (max-width: 1240px) {
+ 
+   .text{
+    display: none;
+   }
+      
+    }
+    @media only screen and (max-width: 1240px) {
+ 
+    .heroo-img{
+        width: 80%;
+    }   
+          
+        }
 
 /* Explanation  PAge*/
 .ex-image{
-    width: 45rem;
+   width: 100%;
 }
 .Explanation{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-around;
 
 }
@@ -116,6 +168,7 @@
 }
 .card{
     display: flex;
+    margin-bottom: 2rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -139,9 +192,38 @@
 .black{
     color: #000000;
 }
+.card:hover{
+    animation: wiggle 2s linear infinite;
+    cursor: pointer;
+}
+@keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
 .card-design{
     display: flex;
     justify-content: space-around;
+    
+    flex-wrap: wrap;
 }
 .social-txt{
     list-style: none;
@@ -155,9 +237,24 @@
     padding-bottom: 4rem;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
 }
 .socail{
     font-size: 1.8rem;
-    color: #5a10c1;
+    color: rgb(18, 17, 17);
 }
+.youtube:hover{
+  color: red;
+}
+.purple:hover{
+color: rgb(200, 5, 200);
+}
+.twitter:hover{
+    color: #00d9ff;
+}
+.github:hover{
+    color: black;
+}
+
+
