@@ -8,8 +8,8 @@
 }
 .bacground-color{
     background: linear-gradient(#7030CC, #5a10c1);
-    margin-left: 1rem;
-    border-radius: 3rem 3rem 0px 0px;
+    /* margin-left: 1rem; */
+   
 }
 .first-bacground{
     background-color: rgb(220, 219, 217);
@@ -93,7 +93,7 @@ flex-wrap: wrap-reverse;
 }
 @media only screen and (max-width: 480px) {
  
-    .text-nav{
+    .text{
      display: none;
     }
        
