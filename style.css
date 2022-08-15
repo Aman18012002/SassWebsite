@@ -69,7 +69,7 @@
     
 }
 .hero-section{
-padding: 2rem;
+
 display: flex;
 align-items: center;
 justify-content: space-around;
@@ -98,6 +98,24 @@ flex-wrap: wrap-reverse;
  .logoimgw{
     width: 60%;
  }
+ .hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+   
+ }
+ .heading-text{
+    padding-left: 1rem;
+    padding-right: 1rem;
+ }
+ .hero-para{
+    font-size: 18px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+ }  
+
+ 
     .text{
      display: none;
     }
